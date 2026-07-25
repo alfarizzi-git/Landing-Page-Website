@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>www.alfa.id</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navbar */
+        nav {
+            background-color: #222;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: #00bfff;
+        }
+
+        /* Hero */
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #00bfff, #0066ff);
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 700px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: white;
+            color: #0066ff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #eee;
+        }
+
+        /* Section */
+        .about {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: white;
+        }
+
+        .about h2 {
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+
+        .about p {
+            max-width: 600px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav ul {
+                gap: 15px;
+            }
+
+            .hero h2 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h1>AlFa.ID</h1>
+
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Tentang.html">Tentang</a></li>
+            <li><a href="Kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Selamat Datang di AlFa.ID</h2>
+
+            <p>
+                Ini adalah website pertama buatan saya <br> untuk keperluan tugas.
+              
+            </p>
+
+        </div>
+    </section>
+
+ 
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>&copy; 2026 AlFa.ID</p>
+    </footer>
+
+</body>
+</html>
