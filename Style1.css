@@ -41,7 +41,7 @@ nav ul li a:hover {
 
 /* Hero */
 .hero {
-    min-height: 85vh;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ nav ul li a:hover {
 
 /* About */
 .about {
-    min-height: 85vh;
+    min-height: 80vh;
     padding: 60px 20px;
     justify-content: center;
     align-items: center;
@@ -104,7 +104,7 @@ nav ul li a:hover {
 
 /* Contact */
 .kontak {
-    min-height: 85vh;
+    min-height: 80vh;
     padding: 60px 20px;
     justify-content: center;
     align-items: center;
